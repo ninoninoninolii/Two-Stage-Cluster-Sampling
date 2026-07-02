@@ -834,6 +834,18 @@ Berdasarkan visualisasi estimasi tingkat penggunaan e-wallet, diketahui bahwa ka
 
 ---
 
+## Kesimpulan
+
+Berdasarkan hasil analisis yang telah dilakukan, dapat disimpulkan bahwa instrumen penelitian telah memenuhi syarat validitas dan reliabilitas, di mana seluruh butir pertanyaan memiliki nilai r hitung yang lebih besar dari r tabel (0,361) dan nilai Cronbach's Alpha sebesar 0,924 yang menunjukkan tingkat reliabilitas sangat tinggi. Dengan menggunakan metode Two-Stage Cluster Sampling, diperoleh estimasi rata-rata tingkat penggunaan electronic wallet (e-wallet) mahasiswa sebesar 37,196 dengan Standard Error (SE) sebesar 2,858, Relative Standard Error (RSE) sebesar 7,68%, serta interval kepercayaan 95% sebesar 31,595–42,798. Nilai RSE yang berada di bawah 25% menunjukkan bahwa hasil estimasi memiliki presisi yang baik dan layak digunakan untuk merepresentasikan populasi. Berdasarkan rentang skor total kuesioner, rata-rata tersebut berada pada kategori sedang hingga tinggi, yang mengindikasikan bahwa secara umum mahasiswa Program Studi Statistika Universitas Mataram telah memanfaatkan e-wallet dalam berbagai aktivitas transaksi sehari-hari. Selain itu, hasil estimasi kategori menunjukkan bahwa 58,08% mahasiswa berada pada kategori tinggi, 37,31% pada kategori sedang, dan 4,62% pada kategori rendah, sehingga dapat disimpulkan bahwa mayoritas mahasiswa memiliki tingkat penggunaan e-wallet yang tinggi.
+
+---
+
+## Saran
+
+Berdasarkan hasil penelitian, mahasiswa diharapkan dapat memanfaatkan electronic wallet (e-wallet) secara lebih bijaksana dengan tetap memperhatikan keamanan transaksi dan pengelolaan keuangan pribadi agar kemudahan pembayaran digital tidak mendorong perilaku konsumtif. Bagi Program Studi Statistika maupun Universitas Mataram, hasil penelitian ini dapat dijadikan sebagai bahan pertimbangan dalam mendukung pengembangan layanan berbasis pembayaran digital serta meningkatkan edukasi mengenai literasi keuangan dan keamanan transaksi elektronik. Selain itu, penyedia layanan e-wallet diharapkan terus meningkatkan kualitas layanan, baik dari sisi keamanan maupun kemudahan penggunaan, agar dapat memberikan pengalaman transaksi yang lebih baik bagi pengguna. Penelitian selanjutnya juga disarankan untuk melibatkan jumlah sampel dan cakupan responden yang lebih luas serta menambahkan variabel-variabel lain, seperti persepsi kemudahan, persepsi manfaat, keamanan, promosi, gaya hidup, dan literasi keuangan digital, sehingga dapat memberikan gambaran yang lebih komprehensif mengenai faktor-faktor yang memengaruhi penggunaan e-wallet di kalangan mahasiswa.
+
+---
+
 ## Daftar Pustaka
 - Rachmad, Y. E., Bakri, A. A., Nuraini, R., Nurdiani, T. W., & Kushariyadi. (2024). Application of The Unified Theory of Acceptance and Use of Technology Method to Analyze Factors Influencing The Use of Digital Wallets in Indonesia. _Jurnal Informasi dan Teknologi, 6_(1), 229-234. DOI: https://doi.org/10.60083/jidt.v6i1.504
 - Mawardi, A. I., & Sholihah, D. D. (2021). Gambaran _Technology Acceptance_ Model Mahasiswa pada _Financial Technology_ (E-Wallet). _Jurnal MEBIS (Manajemen dan Bisnis), 6_(1), 1-6. DOI: https://doi.org/10.33005/mebis.v6i1.222
