@@ -656,6 +656,162 @@ ggplot(estimasi_plot,
 
 ---
 
+## Hasil dan Pembahasan
+
+### 1. Deskripsi Data
+
+Penelitian ini menggunakan data yang diperoleh melalui penyebaran kuesioner kepada 30 mahasiswa Program Studi Statistika. Pengambilan sampel dilakukan menggunakan metode _Two-Stage Cluster Sampling_. Pada tahap pertama, ditentukan dua cluster berdasarkan angkatan dan kelas, yaitu Angkatan 2024 kelas A dan Angkatan 2025 kelas A. Selanjutnya pada tahap kedua, responden dipilih dari masing-masing cluster sehingga diperoleh 10 responden dari Angkatan 2024 kelas A dan 20 responden dari Angkatan 2025 kelas A. Instrumen penelitian terdiri dari 10 item pertanyaan (P1–P10) yang digunakan untuk mengukur tingkat penggunaan e-wallet mahasiswa dengan skala Likert 1–5.
+
+#### Tabel 1. Distribusi Populasi dan Sampel
+
+| Angkatan | Populasi | Sampel |
+|----------|----------|--------|
+| 2023 | 37 | - |
+| 2024 | 54 | 10 |
+| 2025 | 63 | 20 |
+| **Total** | **154** | **30** |
+
+Penggunaan metode cluster sampling dua tahap dipilih karena populasi terbagi dalam kelompok alami berdasarkan angkatan. Metode ini lebih efisien dibandingkan simple random sampling ketika populasi tersebar dalam beberapa kelompok.
+
+### 2. Uji Validitas
+
+Hipotesis:
+H₀: Item tidak valid (r_hitung ≤ r_tabel)
+H₁: Item valid (r_hitung > r_tabel)
+
+Kriteria pengambilan keputusan:
+H₀ ditolak jika r_hitung > r_tabel (0,361) dan p-value < 0,05. 
+
+#### Tabel 2. Hasil Uji Validitas
+
+| Item | r hitung | p-value | Keputusan |
+|------|----------|---------|-----------|
+| P1  | 0.848 | 0.0000 | Valid |
+| P2  | 0.599 | 0.0005 | Valid |
+| P3  | 0.749 | 0.0000 | Valid |
+| P4  | 0.586 | 0.0007 | Valid |
+| P5  | 0.718 | 0.0000 | Valid |
+| P6  | 0.768 | 0.0000 | Valid |
+| P7  | 0.887 | 0.0000 | Valid |
+| P8  | 0.617 | 0.0003 | Valid |
+| P9  | 0.476 | 0.0078 | Valid |
+| P10 | 0.894 | 0.0000 | Valid |
+
+Dari tabel di atas dapat diketahui seluruh item P1–P10 memiliki nilai r_hitung lebih besar dari r_tabel dengan rentang 0,476 hingga 0,894 serta p-value < 0,05 sehingga semua item dinyatakan valid. Hasil ini menunjukkan bahwa setiap butir pertanyaan mampu mengukur konstruk yang sama yaitu penggunaan e-wallet secara konsisten. Korelasi yang tinggi antara item dan total skor menunjukkan bahwa instrumen memiliki kesesuaian yang baik dalam merepresentasikan variabel penelitian sehingga seluruh indikator layak digunakan pada analisis selanjutnya tanpa perlu eliminasi item.
+
+### 3. Uji Reliabilitas
+
+Uji reliabilitas dilakukan menggunakan Cronbach’s Alpha untuk mengukur konsistensi internal instrumen. Hasil analisis diperoleh nilai Cronbach’s Alpha sebesar 0.924. Nilai alpha 0.924 menunjukkan bahwa instrumen memiliki konsistensi internal yang sangat tinggi, artinya antar item saling mendukung dalam mengukur konstruk yang sama.
+
+- Teori Pengambilan Keputusan
+Kriteria reliabilitas:
+- α ≥ 0.90 → sangat reliabel  
+- 0.70 ≤ α < 0.90 → reliabel  
+- α < 0.70 → tidak reliabel  
+
+- Keputusan
+Karena α = 0.924: Instrumen dinyatakan sangat reliabel.
+
+### 4. Statistik Deskriptif
+
+#### Tabel 3. Statistik Deskriptif Skor Penggunaan E-Wallet
+
+| Statistik       | Nilai |
+|----------------|-------|
+| Minimum        | 19    |
+| Kuartil 1      | 34.25 |
+| Median         | 39.50 |
+| Mean           | 37.93 |
+| Kuartil 3      | 42.00 |
+| Maksimum       | 49    |
+| Standar Deviasi| 6.68  |
+
+Berdasarkan hasil analisis statistik deskriptif, diperoleh bahwa rata-rata skor penggunaan e-wallet pada mahasiswa sebesar 37.93. Nilai ini menunjukkan bahwa secara umum tingkat penggunaan e-wallet berada pada kategori sedang hingga tinggi, yang mengindikasikan bahwa mayoritas responden sudah cukup terbiasa menggunakan e-wallet dalam aktivitas transaksi sehari-hari. Nilai standar deviasi sebesar 6.68 menunjukkan adanya variasi jawaban responden yang cukup beragam, sehingga meskipun kecenderungan penggunaan cenderung tinggi, masih terdapat perbedaan tingkat penggunaan antar individu. Selain itu, nilai minimum sebesar 19 dan maksimum sebesar 49 menunjukkan bahwa terdapat responden dengan tingkat penggunaan sangat rendah hingga sangat tinggi, yang menggambarkan rentang perilaku penggunaan yang cukup luas di antara mahasiswa. Nilai median sebesar 39.50 yang lebih tinggi dari rata-rata juga mengindikasikan bahwa sebagian besar responden cenderung berada pada tingkat penggunaan yang relatif tinggi. Secara keseluruhan, hasil ini menunjukkan bahwa penggunaan e-wallet pada mahasiswa cukup dominan dan tersebar dengan variasi yang moderat dalam populasi sampel.
+
+### 5. Distribusi Kategori Penggunaan E-Wallet
+
+#### Tabel 4. Distribusi Kategori Penggunaan E-Wallet
+
+| Kategori | Frekuensi (Bobot) | Persentase |
+|----------|------------------|------------|
+| Rendah   | 16.20            | 4.62%      |
+| Sedang   | 130.95           | 37.31%     |
+| Tinggi   | 203.85           | 58.08%     |
+
+Berdasarkan hasil distribusi kategori penggunaan e-wallet, diperoleh bahwa sebagian besar mahasiswa berada pada kategori tinggi dengan persentase sebesar 58.08%, diikuti kategori sedang sebesar 37.31%, dan kategori rendah sebesar 4.62%. Hasil ini menunjukkan bahwa secara umum tingkat penggunaan e-wallet pada mahasiswa cenderung tinggi, yang mengindikasikan bahwa layanan pembayaran digital telah menjadi bagian utama dalam aktivitas transaksi sehari-hari. Dominasi kategori tinggi juga menunjukkan bahwa sebagian besar responden sudah memiliki tingkat adaptasi yang baik terhadap penggunaan teknologi finansial. Sementara itu, keberadaan responden pada kategori sedang dan rendah menunjukkan masih adanya variasi tingkat adopsi, yang dapat dipengaruhi oleh faktor seperti kebiasaan penggunaan, akses teknologi, atau preferensi metode pembayaran. Secara keseluruhan, hasil ini menguatkan bahwa penggunaan e-wallet pada mahasiswa tidak hanya dominan tetapi juga telah menjadi pola perilaku transaksi yang cukup mapan dalam populasi penelitian.
+
+### 6. Perhitungan Peluang Pemilihan Sampel
+
+#### Tabel 5. Peluang Pemilihan Sampel
+
+| Tahap Sampling | Kelompok | Perhitungan | Nilai Peluang |
+|----------------|----------|-------------|----------------|
+| Tahap 1        | Cluster  | 2 / 6       | 0.3333         |
+| Tahap 2        | 2024     | 10 / 54     | 0.1852         |
+| Tahap 2        | 2025     | 20 / 63     | 0.3175         |
+| Total (2024)   | -        | 0.3333 × 0.1852 | 0.0617     |
+| Total (2025)   | -        | 0.3333 × 0.3175 | 0.1058     |
+
+Berdasarkan hasil perhitungan peluang pemilihan sampel menggunakan metode two-stage cluster sampling, diperoleh bahwa peluang pemilihan pada tahap pertama sebesar 2 dari 6 cluster atau setara dengan 0.3333. Pada tahap kedua, peluang pemilihan berbeda antar kelompok angkatan, yaitu untuk angkatan 2024 sebesar 10 dari 54 atau 0.1852, dan untuk angkatan 2025 sebesar 20 dari 63 atau 0.3175. Dengan mengalikan peluang tahap pertama dan tahap kedua, diperoleh peluang pemilihan akhir sebesar 0.0617 untuk angkatan 2024 dan 0.1058 untuk angkatan 2025. Hasil ini menunjukkan bahwa setiap unit dalam populasi tidak memiliki peluang yang sama untuk terpilih, sehingga diperlukan penyesuaian bobot dalam proses estimasi agar hasil analisis dapat merepresentasikan populasi secara lebih akurat. Secara keseluruhan, perhitungan ini menegaskan bahwa struktur sampling yang digunakan bersifat tidak seimbang (unequal probability sampling), sehingga koreksi melalui pembobotan menjadi langkah penting dalam analisis selanjutnya.
+
+### 7. Perhitungan Bobot Sampling
+
+#### Tabel 6. Perhitungan Bobot Sampling
+
+| Angkatan | Populasi | Sampel | Peluang | Bobot | Bobot Akhir |
+|----------|----------|--------|---------|-------|-------------|
+| 2024     | 54       | 10     | 0.0617  | 16.20 | 16.20       |
+| 2025     | 63       | 20     | 0.1058  | 9.45  | 9.45        |
+
+Berdasarkan hasil perhitungan, diperoleh peluang pemilihan sampel sebesar 0.0617 untuk angkatan 2024 dan 0.1058 untuk angkatan 2025, yang kemudian digunakan untuk menghitung bobot sampling sebagai kebalikan dari peluang tersebut (inverse probability weighting). Hasil perhitungan menunjukkan bahwa bobot sampling sebesar 16.20 untuk angkatan 2024 dan 9.45 untuk angkatan 2025, yang mengindikasikan bahwa responden pada angkatan 2024 memiliki representasi yang lebih besar dalam estimasi populasi dibandingkan angkatan 2025 karena peluang terpilihnya lebih kecil dalam proses sampling. Selanjutnya, bobot akhir yang diperoleh sama dengan bobot dasar, yaitu 16.20 dan 9.45, karena nilai response rate sebesar 1 yang menunjukkan tidak adanya penyesuaian tambahan akibat non-response. Dengan demikian, bobot akhir ini digunakan secara langsung dalam analisis survei untuk mengoreksi ketidakseimbangan peluang pemilihan sehingga setiap responden memberikan kontribusi yang proporsional terhadap estimasi populasi. Secara keseluruhan, penerapan bobot ini memastikan bahwa hasil analisis lebih representatif, tidak bias, dan mampu menggambarkan kondisi populasi secara lebih akurat.
+
+### 8. Pembuatan Desain Survei
+
+Berdasarkan hasil analisis, desain survei dibentuk menggunakan pendekatan two-stage cluster sampling dengan variabel angkatan sebagai unit cluster serta pembobotan berdasarkan inverse probability weight. Desain ini menunjukkan bahwa data tidak dianalisis secara simple random sampling, tetapi mempertimbangkan struktur pengelompokan dan perbedaan peluang pemilihan antar unit. Hal ini mengindikasikan bahwa variasi dalam data tidak hanya berasal dari perbedaan individu, tetapi juga dari perbedaan antar cluster. Secara keseluruhan, penggunaan desain survei berbobot ini memastikan bahwa estimasi yang dihasilkan lebih representatif terhadap populasi dan mampu mengurangi bias yang mungkin muncul akibat desain sampling yang tidak seimbang.
+
+### 9. Estimasi Tingkat Penggunaan E-Wallet
+
+#### Tabel 7. Estimasi Tingkat Penggunaan E-Wallet
+
+| Parameter              | Nilai        |
+|-----------------------|-------------|
+| Mean Estimasi         | 37.196      |
+| Standard Error (SE)   | 2.858       |
+| CI 95%                | 31.595–42.798 |
+| Relative SE (RSE)     | 7.68%       |
+| Design Effect         | 5.368       |
+| Keputusan Estimasi    | Layak       |
+
+Berdasarkan hasil analisis estimasi, diperoleh rata-rata tingkat penggunaan e-wallet pada mahasiswa sebesar 37.196. Nilai ini menunjukkan bahwa secara umum mahasiswa memiliki tingkat penggunaan e-wallet yang cenderung berada pada kategori sedang hingga tinggi, yang mengindikasikan bahwa e-wallet telah menjadi salah satu metode utama dalam aktivitas transaksi sehari-hari. Ketepatan estimasi ini didukung oleh nilai Standard Error (SE) sebesar 2.858 yang menunjukkan bahwa tingkat ketidakpastian relatif kecil sehingga estimasi dapat dikatakan stabil. Selain itu, interval kepercayaan 95% berada pada rentang 31.595 hingga 42.798, yang berarti rata-rata populasi diperkirakan berada dalam rentang tersebut dengan tingkat keyakinan yang tinggi. Nilai Relative Standard Error (RSE) sebesar 7.68% menunjukkan bahwa estimasi tergolong layak dan memiliki presisi yang baik karena masih berada jauh di bawah batas 25%. Sementara itu, nilai Design Effect sebesar 5.368 mengindikasikan adanya pengaruh desain cluster sampling yang menyebabkan variasi data lebih besar dibandingkan simple random sampling, namun masih dalam batas yang dapat diterima. Secara keseluruhan, hasil ini menunjukkan bahwa estimasi yang diperoleh cukup akurat, stabil, dan representatif dalam menggambarkan tingkat penggunaan e-wallet pada mahasiswa.
+
+#### Tabel 8. Rata-rata Berdasarkan Angkatan
+
+| Angkatan | Rata-rata Skor |
+|----------|----------------|
+| 2024     | 34.10          |
+| 2025     | 39.85          |
+
+Berdasarkan estimasi rata-rata menurut angkatan, diperoleh bahwa mahasiswa angkatan 2024 memiliki rata-rata skor penggunaan e-wallet sebesar 34.10, sedangkan mahasiswa angkatan 2025 memiliki rata-rata sebesar 39.85. Hasil tersebut menunjukkan bahwa mahasiswa angkatan 2025 cenderung memiliki tingkat penggunaan e-wallet yang lebih tinggi dibandingkan angkatan 2024. Perbedaan ini mengindikasikan bahwa mahasiswa dari angkatan yang lebih baru memiliki tingkat adopsi teknologi pembayaran digital yang lebih baik, yang kemungkinan dipengaruhi oleh meningkatnya intensitas penggunaan layanan keuangan digital dalam kehidupan sehari-hari. Meskipun demikian, kedua kelompok angkatan tetap menunjukkan tingkat penggunaan e-wallet yang relatif tinggi sehingga secara umum penggunaan e-wallet telah menjadi bagian dari aktivitas transaksi mahasiswa.
+
+### 10. Analisis Kualitas Estimasi
+
+#### Tabel 9. Analisis Kualitas Estimasi
+
+| Parameter | Nilai | Kriteria | Keputusan |
+|-----------|------:|----------|-----------|
+| Standard Error (SE) | 2.858 | Semakin kecil semakin baik | Baik |
+| Confidence Interval | 31.595–42.798 | Rentang estimasi | - |
+| Relative Standard Error (RSE) | 7.68% | RSE < 25% | Layak |
+| Design Effect | 5.368 | Menggambarkan efek desain | Ada efek desain |
+
+Berdasarkan hasil analisis kualitas estimasi, diperoleh nilai Standard Error (SE) sebesar 2.858 yang menunjukkan bahwa tingkat ketidakpastian estimasi relatif kecil sehingga rata-rata penggunaan e-wallet yang diperoleh cukup stabil. Interval kepercayaan 95% berada pada rentang 31.595 hingga 42.798, yang berarti rata-rata penggunaan e-wallet pada populasi mahasiswa diperkirakan berada dalam rentang tersebut dengan tingkat kepercayaan 95%. Selain itu, nilai Relative Standard Error (RSE) sebesar 7.68% menunjukkan bahwa estimasi yang dihasilkan memiliki tingkat presisi yang baik dan layak digunakan karena berada di bawah batas 25%. Sementara itu, nilai Design Effect (Deff) sebesar 5.368 mengindikasikan bahwa penggunaan desain two-stage cluster sampling menghasilkan varians estimasi yang lebih besar dibandingkan apabila menggunakan simple random sampling. Meskipun demikian, berdasarkan nilai RSE yang rendah, kualitas estimasi tetap tergolong baik sehingga hasil penelitian dapat digunakan sebagai gambaran yang representatif mengenai tingkat penggunaan e-wallet pada populasi mahasiswa.
+
+### 10. Visualisasi Data
+
+Berdasarkan hasil visualisasi data, terlihat bahwa distribusi penggunaan e-wallet pada mahasiswa cenderung didominasi oleh kategori tinggi dengan persentase sebesar 58.08%, diikuti kategori sedang sebesar 37.31%, dan kategori rendah sebesar 4.62%. Selain itu, visualisasi rata-rata setiap item menunjukkan bahwa beberapa indikator memiliki nilai yang relatif tinggi, yang mengindikasikan konsistensi penggunaan e-wallet pada berbagai aspek. Perbandingan antar angkatan juga memperlihatkan bahwa angkatan 2025 memiliki rata-rata penggunaan yang lebih tinggi dibandingkan angkatan 2024. Secara keseluruhan, visualisasi ini memperkuat hasil analisis sebelumnya bahwa penggunaan e-wallet pada mahasiswa tergolong tinggi dan cenderung meningkat pada kelompok yang lebih muda.
+
+---
+
 ## Daftar Pustaka
 - Rachmad, Y. E., Bakri, A. A., Nuraini, R., Nurdiani, T. W., & Kushariyadi. (2024). Application of The Unified Theory of Acceptance and Use of Technology Method to Analyze Factors Influencing The Use of Digital Wallets in Indonesia. _Jurnal Informasi dan Teknologi, 6_(1), 229-234. DOI: https://doi.org/10.60083/jidt.v6i1.504
 - Mawardi, A. I., & Sholihah, D. D. (2021). Gambaran _Technology Acceptance_ Model Mahasiswa pada _Financial Technology_ (E-Wallet). _Jurnal MEBIS (Manajemen dan Bisnis), 6_(1), 1-6. DOI: https://doi.org/10.33005/mebis.v6i1.222
