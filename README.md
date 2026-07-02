@@ -112,16 +112,31 @@ Kesimpulan
 
 ### Teknik Analisis Data
 
-- #### 1. Uji Validitas
+#### 1. Import Data
 
-##### Syntax
+Tahap ini bertujuan untuk mengimpor data populasi dan data sampel hasil penyebaran kuesioner ke dalam perangkat lunak R. Selain itu, pada tahap ini dilakukan penyesuaian nama variabel, pendefinisian item pertanyaan, mengubah tipe data setiap item menjadi numerik, menghitung skor total, serta menghitung rata-rata skor penggunaan *e-wallet*. Hasil dari tahap ini menjadi dasar dalam proses analisis pada tahapan berikutnya.
+
+#### Syntax
 ```r
 library(readxl)
 library(psych)
 
 data <- read_excel("C:/Users/HP/Documents/RESPONDEN.xlsx")
 View(data)
+```
 
+#### Keterangan
+- `library(readxl)` digunakan untuk memanggil package `readxl` agar data Excel dapat dibaca ke R.
+- `library(psych)` digunakan untuk analisis psikometri termasuk uji reliabilitas.
+- `read_excel()` digunakan untuk mengimpor data responden dari file Excel.
+- `View()` digunakan untuk menampilkan dataset sebelum dianalisis.
+  
+#### 2. Uji Validitas
+
+Tujuannya untuk melihat apakah setiap pertanyaan (P1 sampai P10) benar-benar mampu mengukur konsep yang ingin diteliti, yaitu penggunaan e-wallet. Pengambilan keputusan dilakukan dengan membandingkan nilai r hitung dengan r tabel (0,361). Jika r hitung lebih besar dari r tabel, maka item dinyatakan valid. Jika lebih kecil, maka tidak valid.
+
+#### Syntax
+```r
 item <- c("P1","P2","P3","P4","P5",
           "P6","P7","P8","P9","P10")
 
@@ -175,10 +190,6 @@ print(hasil_validitas)
 ```
 
 #### Keterangan
-- `library(readxl)` digunakan untuk memanggil package `readxl` agar data Excel dapat dibaca ke R.
-- `library(psych)` digunakan untuk analisis psikometri termasuk uji reliabilitas.
-- `read_excel()` digunakan untuk mengimpor data responden dari file Excel.
-- `View()` digunakan untuk menampilkan dataset sebelum dianalisis.
 - `item` digunakan untuk mendefinisikan variabel item P1–P10.
 - `lapply()` digunakan untuk mengubah data item menjadi numerik.
 - `rowSums()` digunakan untuk menghitung total skor setiap responden.
@@ -191,7 +202,10 @@ print(hasil_validitas)
 - `ifelse()` digunakan untuk menentukan keputusan valid atau tidak valid.
 - `print()` digunakan untuk menampilkan hasil uji validitas.
 
-- #### 2. Uji Reliabilitas
+#### 3. Uji Reliabilitas
+
+Tujuannya untuk mengetahui apakah kuesioner yang digunakan konsisten atau stabil jika digunakan berulang. Keputusan diambil berdasarkan nilai Cronbach’s Alpha. Jika nilainya ≥ 0,70 maka instrumen dianggap reliabel, artinya jawaban responden konsisten. Jika kurang dari 0,70 maka tidak reliabel.
+
 #### Syntax
 ```r
 hasil_alpha <- alpha(data[item])
@@ -220,7 +234,10 @@ if(hasil_alpha$total$raw_alpha >= 0.70){
 - `round()` digunakan untuk membulatkan nilai Cronbach’s Alpha.
 - `ifelse()` digunakan untuk menentukan keputusan reliabel atau tidak berdasarkan batas 0.70.
 
-- #### 3. Statistik Deskriptif
+#### 4. Statistik Deskriptif
+
+Tujuannya untuk memberikan gambaran umum data penelitian seperti rata-rata, standar deviasi, nilai minimum, dan maksimum dari skor penggunaan e-wallet. Tidak ada keputusan “diterima atau ditolak” di tahap ini, karena hanya untuk melihat karakteristik data.
+
 #### Syntax
 ```r
 library(readxl)
@@ -284,7 +301,10 @@ table(sampel$ANGKATAN)
 - `table()` digunakan untuk melihat distribusi frekuensi angkatan.
 - `cat()` digunakan untuk menampilkan hasil perhitungan.
 
-- #### 4. Perhitungan Peluang Pemilihan Sampel
+#### 5. Perhitungan Peluang Pemilihan Sampel
+
+Tahap ini bertujuan untuk menghitung peluang setiap responden terpilih sebagai sampel berdasarkan desain *Two Stage Cluster Sampling*. Peluang pemilihan dihitung melalui peluang pemilihan *cluster* pada tahap pertama dan peluang pemilihan responden pada tahap kedua.
+
 #### Syntax
 ```r
 M <- 6
@@ -315,7 +335,10 @@ Pi_2025 <- P1 * P2_2025
 - `P2_2024` dan `P2_2025` digunakan untuk peluang pemilihan tahap kedua.
 - `Pi_2024` dan `Pi_2025` digunakan untuk peluang total pemilihan sampel.
 
-- #### 5. Perhitungan Bobot Sampling
+#### 6. Perhitungan Bobot Sampling
+
+Tahap ini bertujuan untuk menghitung bobot setiap responden berdasarkan peluang pemilihannya. Bobot digunakan agar hasil estimasi mampu merepresentasikan kondisi populasi.
+
 #### Syntax
 ```r
 Bobot_2024 <- 1/Pi_2024
@@ -359,7 +382,10 @@ print(hasil)
 - `data.frame()` digunakan untuk membuat tabel hasil bobot.
 - `print()` digunakan untuk menampilkan hasil bobot sampling.
 
-- #### 6. Pembuatan Desain Survei
+#### 7. Pembuatan Desain Survei
+
+Tahap ini bertujuan untuk membentuk desain survei sesuai dengan metode *Two Stage Cluster Sampling*. Desain survei dibangun dengan memasukkan informasi *cluster* dan bobot akhir setiap responden sehingga proses estimasi dapat memperhitungkan desain pengambilan sampel yang digunakan.
+
 #### Syntax
 ```r
 library(survey)
@@ -388,7 +414,10 @@ print(design_cluster)
 - `weights` digunakan untuk bobot sampling akhir.
 - `print()` digunakan untuk menampilkan desain survei.
 
-- #### 7. Estimasi Tingkat Penggunaan E-Wallet
+#### 8. Estimasi Tingkat Penggunaan E-Wallet
+
+Tahap ini bertujuan untuk mengestimasi tingkat penggunaan *e-wallet* berdasarkan data sampel yang telah diberikan bobot. Estimasi dilakukan menggunakan desain survei sehingga hasil yang diperoleh dapat mewakili kondisi populasi.
+
 #### Syntax
 ```r
 table(sampel$Kategori)
@@ -411,7 +440,9 @@ mean_total <- svymean(
 - `prop.table()` digunakan untuk menghitung proporsi.
 - `svymean()` digunakan untuk menghitung rata-rata berbobot.
 
-- #### 8. Analisis Kualitas Estimasi
+#### 9. Analisis Kualitas Estimasi
+
+Tahap ini bertujuan untuk mengevaluasi ketelitian hasil estimasi yang diperoleh. Ukuran yang digunakan meliputi *Standard Error* (SE), *Confidence Interval* (CI), *Relative Standard Error* (RSE), dan *Design Effect* (DEFF).
 
 #### Syntax
 ```r
@@ -442,7 +473,9 @@ svyby(
 - `deff = TRUE` digunakan untuk design effect.
 - `svyby()` digunakan untuk estimasi berdasarkan kelompok.
 
-- #### 9. Visualisasi Data
+#### 10. Visualisasi Data
+
+Tahap ini bertujuan untuk menyajikan hasil analisis dalam bentuk visual sehingga distribusi data dan hasil estimasi dapat dipahami dengan lebih mudah. Visualisasi dilakukan menggunakan package `ggplot2` dalam bentuk diagram batang, histogram, diagram lingkaran, maupun grafik lain yang sesuai dengan kebutuhan analisis.
 
 #### Visualisasi 1 - Rata-rata Skor Setiap Pernyataan
 #### Syntax
