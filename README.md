@@ -808,7 +808,29 @@ Berdasarkan hasil analisis kualitas estimasi, diperoleh nilai Standard Error (SE
 
 ### 10. Visualisasi Data
 
-Berdasarkan hasil visualisasi data, terlihat bahwa distribusi penggunaan e-wallet pada mahasiswa cenderung didominasi oleh kategori tinggi dengan persentase sebesar 58.08%, diikuti kategori sedang sebesar 37.31%, dan kategori rendah sebesar 4.62%. Selain itu, visualisasi rata-rata setiap item menunjukkan bahwa beberapa indikator memiliki nilai yang relatif tinggi, yang mengindikasikan konsistensi penggunaan e-wallet pada berbagai aspek. Perbandingan antar angkatan juga memperlihatkan bahwa angkatan 2025 memiliki rata-rata penggunaan yang lebih tinggi dibandingkan angkatan 2024. Secara keseluruhan, visualisasi ini memperkuat hasil analisis sebelumnya bahwa penggunaan e-wallet pada mahasiswa tergolong tinggi dan cenderung meningkat pada kelompok yang lebih muda.
+#### Gambar 1. Rata-rata Skor Tiap Pernyataan
+
+<img width="958" height="556" alt="image" src="https://github.com/user-attachments/assets/d5b5cd5d-d4ed-49ba-b985-ecd34e130cf3" />
+
+Berdasarkan visualisasi rata-rata skor setiap pernyataan penggunaan e-wallet mahasiswa Program Studi Statistika, terlihat bahwa rata-rata skor setiap item berada pada rentang 3,33 hingga 4,40. Nilai rata-rata tertinggi terdapat pada pernyataan P7 sebesar 4,40 yang termasuk dalam kategori setuju, diikuti oleh P6 sebesar 4,13 dan P10 sebesar 4,10 yang juga berada pada kategori setuju. Sementara itu, nilai rata-rata terendah terdapat pada P9 sebesar 3,33 yang berada pada kategori netral, sedangkan P2 memperoleh rata-rata sebesar 3,43 yang termasuk kategori setuju. Secara keseluruhan, hasil ini menunjukkan bahwa sebagian besar pernyataan memperoleh tanggapan pada kategori setuju, sehingga dapat disimpulkan bahwa responden memiliki persepsi yang positif terhadap penggunaan e-wallet.
+
+#### Gambar 2. Estimasi Tingkat Penggunaan E-Wallet
+
+<img width="958" height="556" alt="image" src="https://github.com/user-attachments/assets/c7f6d3c1-0b6c-491d-89ea-5d2684b7d45a" />
+
+Berdasarkan visualisasi estimasi tingkat penggunaan e-wallet mahasiswa Program Studi Statistika Universitas Mataram, diketahui bahwa sebagian besar responden berada pada kategori tinggi dengan persentase sebesar 58,1%. Selanjutnya, sebanyak 37,3% responden berada pada kategori sedang, sedangkan hanya 4,6% responden yang berada pada kategori rendah. Hasil tersebut menunjukkan bahwa mayoritas mahasiswa memiliki tingkat penggunaan e-wallet yang tinggi, sehingga penggunaan dompet digital telah menjadi bagian dari aktivitas transaksi sehari-hari mahasiswa.
+
+#### Gambar 3. Estimasi Rata-rata Skor Penggunaan E-Wallet Berdasarkan Angkatan
+
+<img width="958" height="556" alt="image" src="https://github.com/user-attachments/assets/46119c63-2f08-49b0-9992-02efb9eefbbd" />
+
+Berdasarkan visualisasi estimasi rata-rata skor penggunaan e-wallet berdasarkan angkatan, terlihat bahwa mahasiswa angkatan 2025 memiliki estimasi rata-rata skor sebesar 39,89, lebih tinggi dibandingkan mahasiswa angkatan 2024 yang memiliki estimasi rata-rata skor sebesar 34,10. Hasil ini menunjukkan bahwa mahasiswa angkatan 2025 cenderung memiliki tingkat penggunaan e-wallet yang lebih tinggi dibandingkan mahasiswa angkatan 2024. Namun demikian, perbedaan tersebut hanya bersifat deskriptif sehingga diperlukan analisis statistik lebih lanjut untuk mengetahui apakah perbedaan tersebut signifikan secara statistik.
+
+#### Gambar 4. Estimasi Tingkat Penggunaan E-Wallet
+
+<img width="958" height="556" alt="image" src="https://github.com/user-attachments/assets/05801761-5dcc-4297-85a6-a5746629ac44" />
+
+Berdasarkan visualisasi estimasi tingkat penggunaan e-wallet, diketahui bahwa kategori tinggi mendominasi dengan persentase sebesar 58,1%, diikuti kategori sedang sebesar 37,3%, sedangkan kategori rendah hanya sebesar 4,6%. Hal ini menunjukkan bahwa lebih dari setengah responden memiliki tingkat penggunaan e-wallet yang tinggi. Dengan demikian, dapat disimpulkan bahwa penggunaan e-wallet di kalangan mahasiswa Program Studi Statistika Universitas Mataram secara umum berada pada kategori tinggi, yang menunjukkan bahwa e-wallet telah banyak dimanfaatkan sebagai sarana pembayaran dalam aktivitas sehari-hari.
 
 ---
 
@@ -818,3 +840,10 @@ Berdasarkan hasil visualisasi data, terlihat bahwa distribusi penggunaan e-walle
 - Nugroho, A., & Pramudita, K. (2023). Determinan Penggunaan E-Wallet di Kalangan Mahasiswa Yogyakarta. _Asian Journal of Innovation and Entrepreneurship, 7_(2), 39-46. DOI: https://doi.org/10.20885/ajie.vol7.iss2.art1
 - Rachmawati, D. A., & Trisnaningsih, S. (2023). Pengaruh Efektivitas, Manfaat dan Gaya Hidup terhadap Minat Penggunaan E-Wallet pada Kalangan Mahasiswa Akuntansi UPN "Veteran" Jawa Timur dengan Pendekatan _Technology Acceptance Model_. _Al-Kharaj: Jurnal Ekonomi, Keuangan & Bisnis Syariah, 5_(5), 2730-2740. DOI: https://doi.org/10.47467/alkharaj.v5i5.4267
 - Khofifah, S., & Kardiyem. (2024). Intensitas Penggunaan E-Wallet pada Mahasiswa Fakultas Ekonomika dan Bisnis: Perspektif Teori TAM dan UTAUT. _Jurnal Ekonomi dan Pendidikan, 20_(2), 62-78. DOI: https://doi.org/10.21831/jep.v20i2.63121
+
+---
+
+## Link Kusioner
+https://docs.google.com/forms/d/e/1FAIpQLSfRxXTHgZ-QKpLX9XbpEiO1KoQzYACoVmTaUBqmU73SG1_uxA/viewform?usp=publish-editor
+
+---
